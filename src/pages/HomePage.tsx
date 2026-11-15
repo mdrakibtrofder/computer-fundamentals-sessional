@@ -387,6 +387,54 @@ export function HomePage() {
         </div>
       </section>
 
+      {/* Course Teachers (matching reference screenshot) */}
+      <section className="space-y-5">
+        <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-2">
+          <div>
+            <h2 className="font-display font-bold text-2xl sm:text-3xl text-slate-900 dark:text-white tracking-tight">
+              Course Teachers
+            </h2>
+            <p className="text-sm text-slate-600 dark:text-slate-400 mt-1">
+              Department of Computer Science and Engineering · BAUST
+            </p>
+          </div>
+          <div className="inline-flex items-center gap-1.5 text-xs font-semibold text-[#4F46E5] dark:text-indigo-400">
+            <GraduationCap className="w-4 h-4 shrink-0" />
+            <span>CSE 2110 · Dept. of English</span>
+          </div>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="bg-white dark:bg-slate-900 rounded-2xl border border-slate-200/90 dark:border-slate-800 p-5 shadow-xs flex items-center gap-4">
+            <div className="w-12 h-12 rounded-xl bg-[#EEF2FF] dark:bg-indigo-950/70 text-[#4F46E5] dark:text-indigo-300 font-display font-bold text-base flex items-center justify-center shrink-0">
+              NR
+            </div>
+            <div className="min-w-0 space-y-0.5">
+              <h3 className="font-display font-bold text-base sm:text-lg text-slate-900 dark:text-white">
+                Naimur Rahman
+              </h3>
+              <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-400">
+                Lecturer · Department of CSE, BAUST
+              </p>
+            </div>
+          </div>
+
+          <div className="bg-white dark:bg-slate-900 rounded-2xl border border-slate-200/90 dark:border-slate-800 p-5 shadow-xs flex items-center gap-4">
+            <div className="w-12 h-12 rounded-xl bg-[#EEF2FF] dark:bg-indigo-950/70 text-[#4F46E5] dark:text-indigo-300 font-display font-bold text-base flex items-center justify-center shrink-0">
+              RT
+            </div>
+            <div className="min-w-0 space-y-0.5">
+              <h3 className="font-display font-bold text-base sm:text-lg text-slate-900 dark:text-white">
+                Md. Rakib Trofder
+              </h3>
+              <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-400">
+                Lecturer · Department of CSE, BAUST
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Explore the Study Portal (matching Screenshot 1 2-column card grid) */}
       <section className="space-y-6">
         <div>
