@@ -1,0 +1,6 @@
+{
+  "name": "CSE 2110 — Computer Fundamentals Sessional",
+  "description": "Interactive learning portal for CSE 2110 Computer Fundamentals Sessional at BAUST: 34 lessons across Computer Basics, MS Word, PowerPoint, and Excel, 12 printable labs, Excel playground, and 3-mode MCQ quizzes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
